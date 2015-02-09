@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "See the GitHub contributions calendar of a user in the command line.",
   "main": "lib/index.js",
-  "dependencies": {
-    "cheerio": "^0.18.0",
-    "jsonrequest": "^1.1.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "node test"
   },
@@ -26,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/ghcal/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/ghcal"
+  "homepage": "https://github.com/IonicaBizau/ghcal",
+  "dependencies": {
+    "ansi-parser": "^1.4.0",
+    "bug-killer": "^1.0.0",
+    "cheerio": "^0.18.0",
+    "cli-box": "^2.1.1",
+    "git-stats-colors": "^1.0.0",
+    "request": "^2.53.0",
+    "ul": "^1.1.0"
+  },
+  "devDependencies": {}
 }
