@@ -4,6 +4,7 @@ var GhCal = require("../lib")
   , GhConfig = {}
   , Ul = require("ul")
   , Logger = require("bug-killer")
+  , GitStatsColors = require("git-stats-colors")
   ;
 
 Logger.config.showDate = false;
@@ -15,4 +16,8 @@ try {
 GhConfig.username = process.argv[2] || GhConfig.username;
 GhCal(GhConfig.username, function (err, data) {
     if (err) { return Logger.log(err, "error"); }
+    if (process.argv.indexOf("--no-ansi") === -1) {
+        data = GitStatsColors(data, process.argv.indexOf("--light") === -1 ? "DARK" : "LIGHT");
+    }
+    console.log(data);
 });
