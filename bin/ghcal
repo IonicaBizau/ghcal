@@ -7,7 +7,7 @@ var GhCal = require("../lib")
   , GitStatsColors = require("git-stats-colors")
   ;
 
-Logger.config.showDate = false;
+Logger.config.displayDate = false;
 
 try {
     GhConfig = require(Ul.USER_DIR + "/.github-config.json");
