@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var GhCal = require("../lib")
+  , GhConfig = {}
+  , Ul = require("ul")
+  , Logger = require("bug-killer")
+  ;
+
+Logger.config.showDate = false;
+
+try {
+    GhConfig = require(Ul.USER_DIR + "/.github-config.json");
+} catch (e) {}
+
+GhConfig.username = process.argv[2] || GhConfig.username;
+GhCal(GhConfig.username, function (err, data) {
+    if (err) { return Logger.log(err, "error"); }
+});
