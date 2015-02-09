@@ -1,0 +1,30 @@
+{
+  "name": "ghcal",
+  "version": "1.0.0",
+  "description": "See the GitHub contributions calendar of a user in the command line.",
+  "main": "lib/index.js",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "jsonrequest": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/ghcal.git"
+  },
+  "keywords": [
+    "github",
+    "contributions",
+    "command",
+    "line"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/ghcal/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/ghcal"
+}
