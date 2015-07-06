@@ -30,7 +30,7 @@
     "bug-killer": "^1.0.0",
     "cheerio": "^0.18.0",
     "cli-box": "^2.1.1",
-    "git-stats-colors": "^1.0.0",
+    "git-stats-colors": "^2.2.0",
     "request": "^2.53.0",
     "ul": "^1.1.0"
   },
