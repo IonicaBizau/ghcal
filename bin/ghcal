@@ -15,7 +15,7 @@ var GhCal = require("../lib")
 // Try to get the GitHub config username
 Moment.suppressDeprecationWarnings = true;
 try {
-    GhConfig = ReadJson("~/.github-config.json");
+    GhConfig = ReadJson(Abs("~/.github-config.json"));
 } catch (e) {}
 
 // Parse the command line arguments
