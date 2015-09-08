@@ -1,6 +1,6 @@
 {
   "name": "ghcal",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "See the GitHub contributions calendar of a user in the command line.",
   "main": "lib/index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:IonicaBizau/ghcal.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/ghcal.git"
   },
   "keywords": [
     "github",
@@ -34,5 +34,12 @@
     "request": "^2.53.0",
     "ul": "^5.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "blah": {
+    "h_img": "http://i.imgur.com/yzElGZN.png",
+    "ex_img": "http://i.imgur.com/OhgCb8o.png"
+  },
+  "directories": {
+    "example": "example"
+  }
 }
