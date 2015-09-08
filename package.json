@@ -20,19 +20,19 @@
     "line"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/ghcal/issues"
   },
   "homepage": "https://github.com/IonicaBizau/ghcal",
   "dependencies": {
-    "ansi-parser": "^1.4.0",
-    "bug-killer": "^1.0.0",
+    "ansi-parser": "^3.0.0",
+    "bug-killer": "^4.0.0",
     "cheerio": "^0.18.0",
-    "cli-box": "^2.1.1",
+    "cli-box": "^5.0.0",
     "git-stats-colors": "^2.1.0",
     "request": "^2.53.0",
-    "ul": "^1.1.0"
+    "ul": "^5.0.0"
   },
   "devDependencies": {}
 }
