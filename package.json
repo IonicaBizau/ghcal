@@ -19,25 +19,93 @@
     "command",
     "line"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/ghcal/issues"
   },
   "homepage": "https://github.com/IonicaBizau/ghcal",
   "dependencies": {
+    "abs": "^1.0.0",
     "ansi-parser": "^3.0.0",
     "bug-killer": "^4.0.0",
     "cheerio": "^0.18.0",
     "cli-box": "^5.0.0",
+    "cli-gh-cal": "^1.0.0",
+    "clp": "^3.0.0",
     "git-stats-colors": "^2.1.0",
+    "r-json": "^1.0.0",
     "request": "^2.53.0",
+    "typpy": "^2.1.2",
     "ul": "^5.0.0"
   },
   "devDependencies": {},
   "blah": {
     "h_img": "http://i.imgur.com/yzElGZN.png",
-    "ex_img": "http://i.imgur.com/OhgCb8o.png"
+    "ex_img": "http://i.imgur.com/OhgCb8o.png",
+    "description": "If you want to track all your git commits (even if you don't push them anywhere), you should [check out the `git-stats` project](https://github.com/IonicaBizau/git-stats).",
+    "installation": [
+      {
+        "h2": "Usage"
+      },
+      {
+        "h3": "Default behavior"
+      },
+      {
+        "p": "If you are already using [`cli-github`](https://github.com/IonicaBizau/cli-github), then your GitHub username is kept into `~/.github-config.json` and `ghcal` will use it if you don't pass another username: `ghcal` will be the same with `ghcal -u <your-username>`."
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": "ghcal"
+        }
+      },
+      {
+        "h3": "Passing the username"
+      },
+      {
+        "p": " sing the `-u` (or `--username`) option, you can specify the GitHub username:"
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": [
+            "# Fetches the izuzak's contributions",
+            "$ ghcal -u izuzak"
+          ]
+        }
+      },
+      {
+        "h3": "Themes"
+      },
+      {
+        "p": "If you pass the `--light` option, then the light theme will be activated (the default theme is dark)."
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": [
+            "# jlord's contributions, light theme",
+            "$ ghcal jlord --light"
+          ]
+        }
+      },
+      {
+        "h3": "No ANSI styles"
+      },
+      {
+        "p": "The `--no-ansi` option disables any colors in the output. Unicode characters, without colors will be used."
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": [
+            "# @pengywynn's contributions, but without ANSI styles",
+            "$ ghcal pengwynn --no-ansi"
+          ]
+        }
+      }
+    ]
   },
   "directories": {
     "example": "example"
