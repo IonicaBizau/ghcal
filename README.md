@@ -1,6 +1,7 @@
 [![ghcal](http://i.imgur.com/yzElGZN.png)](#)
 
 # `$ ghcal` [![Support this project][donate-now]][paypal-donations]
+
 See the GitHub contributions calendar of a user in the command line.
 
 If you want to track all your git commits (even if you don't push them anywhere), you should [check out the `git-stats` project](https://github.com/IonicaBizau/git-stats).
