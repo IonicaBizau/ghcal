@@ -1,6 +1,6 @@
 {
   "name": "ghcal",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "See the GitHub contributions calendar of a user in the command line.",
   "main": "lib/index.js",
   "bin": {
@@ -34,6 +34,7 @@
     "cli-gh-cal": "^1.0.0",
     "clp": "^3.0.0",
     "git-stats-colors": "^2.1.0",
+    "moment": "^2.10.6",
     "r-json": "^1.0.0",
     "request": "^2.53.0",
     "typpy": "^2.1.2",
