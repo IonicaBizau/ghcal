@@ -1,6 +1,6 @@
 {
   "name": "ghcal",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "See the GitHub contributions calendar of a user in the command line.",
   "main": "lib/index.js",
   "bin": {
@@ -20,7 +20,7 @@
     "line"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/ghcal/issues"
   },
