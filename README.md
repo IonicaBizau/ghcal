@@ -1,8 +1,8 @@
 [![ghcal](http://i.imgur.com/yzElGZN.png)](#)
 
-# `$ ghcal` [![Support this project][donate-now]][paypal-donations]
+# `$ ghcal` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ghcal.svg)](https://www.npmjs.com/package/ghcal) [![Downloads](https://img.shields.io/npm/dt/ghcal.svg)](https://www.npmjs.com/package/ghcal) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-See the GitHub contributions calendar of a user in the command line.
+> See the GitHub contributions calendar of a user in the command line.
 
 If you want to track all your git commits (even if you don't push them anywhere), you should [check out the `git-stats` project](https://github.com/IonicaBizau/git-stats).
 
