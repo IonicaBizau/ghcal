@@ -38,7 +38,7 @@ Examples:
   ghcal -u ionicabizau --light
   ghcal -u ionicabizau --no-ansi
   ghcal -u ionicabizau -s '1 January 2015' # All the commits from 1 January 2015 to now
-  ghcal -u ionicabizau -s '1 January 2015' -u '1 March 2015' # Select a time range
+  ghcal -u ionicabizau -s '1 January 2015' -e '1 March 2015' # Select a time range
 
 Note that only the last year statistics are available.
 
