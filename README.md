@@ -1,3 +1,4 @@
+
 [![ghcal](http://i.imgur.com/yzElGZN.png)](#)
 
 # `$ ghcal` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ghcal.svg)](https://www.npmjs.com/package/ghcal) [![Downloads](https://img.shields.io/npm/dt/ghcal.svg)](https://www.npmjs.com/package/ghcal) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
@@ -8,30 +9,33 @@ If you want to track all your git commits (even if you don't push them anywhere)
 
 [![ghcal](http://i.imgur.com/OhgCb8o.png)](#)
 
-## Installation
+## :cloud: Installation
 
 You can install the package globally and use it as command line tool:
+
 
 ```sh
 $ npm i -g ghcal
 ```
 
+
 Then, run `ghcal --help` and see what the CLI tool can do.
 
-```sh
+
+```
 $ ghcal --help
 Usage: ghcal [options]
 
 Options:
   -u, --username <username>  The GitHub username. If you're using CLI GitHub,
-                             by default it will be your username.            
+                             by default it will be your username.
   -c, --cookie <cookie>      Your GitHub cookie. Useful to get private stats.
-  -s, --since <date>         Optional start date.                            
-  -e, --until <date>         Optional end date.                              
-  -n, --no-ansi              Forces the tool not to use ANSI styles.         
-  -l, --light                Enables the light theme.                        
-  -h, --help                 Displays this help.                             
-  -v, --version              Displays version information.                   
+  -s, --since <date>         Optional start date.
+  -e, --until <date>         Optional end date.
+  -n, --no-ansi              Forces the tool not to use ANSI styles.
+  -l, --light                Enables the light theme.
+  -h, --help                 Displays this help.
+  -v, --version              Displays version information.
 
 Examples:
   ghcal -u ionicabizau
@@ -78,13 +82,16 @@ The `--no-ansi` option disables any colors in the output. Unicode characters, wi
 $ ghcal pengwynn --no-ansi
 ```
 
-## Example
+## :clipboard: Example
+
 
 Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
 
 ```sh
 $ npm i --save ghcal
 ```
+
+
 
 ```js
 var GhCal = require("ghcal");
@@ -94,19 +101,20 @@ GhCal("ionicabizau", function (err, data) {
 });
 ```
 
-## Documentation
+## :memo: Documentation
 
 For full API reference, see the [DOCUMENTATION.md][docs] file.
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`github-stats`](https://github.com/IonicaBizau/github-stats)
 
-## License
+ - [`github-stats`](https://github.com/IonicaBizau/github-stats)—Visualize stats about GitHub users and projects in your terminal.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
