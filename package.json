@@ -1,6 +1,6 @@
 {
   "name": "ghcal",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "description": "See the GitHub contributions calendar of a user in the command line.",
   "main": "lib/index.js",
   "bin": {
