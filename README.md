@@ -61,7 +61,7 @@ ghcal
 ```
 ### Passing the username
 
- sing the `-u` (or `--username`) option, you can specify the GitHub username:
+ Using the `-u` (or `--username`) option, you can specify the GitHub username:
 
 ```sh
 # Fetches the izuzak's contributions
