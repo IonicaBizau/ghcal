@@ -65,7 +65,7 @@
         "h3": "Passing the username"
       },
       {
-        "p": " sing the `-u` (or `--username`) option, you can specify the GitHub username:"
+        "p": " Using the `-u` (or `--username`) option, you can specify the GitHub username:"
       },
       {
         "code": {
