@@ -29,7 +29,7 @@
     "abs": "^1.0.0",
     "ansi-parser": "^3.0.0",
     "bug-killer": "^4.0.0",
-    "cheerio": "^0.18.0",
+    "cheerio": "0.22.0",
     "cli-box": "^5.0.0",
     "cli-gh-cal": "^1.0.0",
     "clp": "^3.0.0",
