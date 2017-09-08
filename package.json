@@ -1,6 +1,6 @@
 {
   "name": "ghcal",
-  "version": "2.3.8",
+  "version": "2.3.9",
   "description": "See the GitHub contributions calendar of a user in the command line.",
   "main": "lib/index.js",
   "bin": {
@@ -121,6 +121,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
