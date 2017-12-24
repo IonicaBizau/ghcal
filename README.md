@@ -19,7 +19,11 @@ You can install the package globally and use it as command line tool:
 
 
 ```sh
-$ npm i -g ghcal
+# Using npm
+npm install --global ghcal
+
+# Using yarn
+yarn global add ghcal
 ```
 
 
@@ -54,14 +58,18 @@ Documentation can be found at https://github.com/IonicaBizau/ghcal
 ```
 
 ## Usage
+
 ### Default behavior
+
 
 If you are already using [`cli-github`](https://github.com/IonicaBizau/cli-github), then your GitHub username is kept into `~/.github-config.json` and `ghcal` will use it if you don't pass another username: `ghcal` will be the same with `ghcal -u <your-username>`.
 
 ```sh
 ghcal
 ```
+
 ### Passing the username
+
 
  Using the `-u` (or `--username`) option, you can specify the GitHub username:
 
@@ -69,7 +77,9 @@ ghcal
 # Fetches the izuzak's contributions
 $ ghcal -u izuzak
 ```
+
 ### Themes
+
 
 If you pass the `--light` option, then the light theme will be activated (the default theme is dark).
 
@@ -77,7 +87,9 @@ If you pass the `--light` option, then the light theme will be activated (the de
 # jlord's contributions, light theme
 $ ghcal jlord --light
 ```
+
 ### No ANSI styles
+
 
 The `--no-ansi` option disables any colors in the output. Unicode characters, without colors will be used.
 
@@ -86,13 +98,18 @@ The `--no-ansi` option disables any colors in the output. Unicode characters, wi
 $ ghcal pengwynn --no-ansi
 ```
 
+
 ## :clipboard: Example
 
 
-Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
+Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm` (or `yarn`):
 
 ```sh
-$ npm i --save ghcal
+# Using npm
+npm install --save ghcal
+
+# Using yarn
+yarn add ghcal
 ```
 
 
@@ -113,7 +130,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
