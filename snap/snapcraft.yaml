@@ -1,0 +1,23 @@
+name: ghcal
+base: core18
+version: git
+summary: See the GitHub contributions calendar of a user in the command line
+description: |
+  See the GitHub contributions calendar of a user in the command line.
+  For example:
+    ghcal -u ionicabizau
+    ghcal -u ionicabizau --light
+    ghcal -u ionicabizau --no-ansi
+
+grade: stable
+confinement: strict
+
+parts:
+  ghcal:
+    plugin: nodejs
+    source: .
+
+apps:
+  ghcal:
+    command: ghcal
+    plugs: [home, network]
